@@ -12,3 +12,7 @@ cprintf: main.c
 .PHONY: run
 run: cprintf
 	./cprintf
+
+.PHONY: run-go
+run-go:
+	go run main.go
