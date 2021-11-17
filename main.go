@@ -31,6 +31,7 @@ func main() {
 	// Strings
 	str := "Hello World!"
 	generateRow("Quoted strings", "%q", str)
+	generateRow("Spaced hexadecinal", "% x", "\xde\xad\xbe\xef")
 
 	// Boolean
 	generateRow("Boolean", "%t/%t", true, false)
